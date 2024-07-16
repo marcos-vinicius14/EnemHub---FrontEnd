@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { HeaderComponent } from '../../components/header/header.component';
+import { SectionHeroComponent } from '../../components/section-hero/section-hero.component';
 
 
 @Component({
   selector: 'app-home',
   standalone: true,
   imports: [
-    HeaderComponent
+    SectionHeroComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'

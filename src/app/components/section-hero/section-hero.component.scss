@@ -1,0 +1,43 @@
+@import "../../../variables.scss";
+
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 3%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  text-align: center;
+  padding: 15px;
+  h1 {
+    @include font-style($font-roboto, 40px, 800, #FFF);
+    @include breakpoint(small) {
+      font-size: 25px;
+    }
+    
+    line-height: normal;
+
+  }
+
+  p {
+    @include font-style($font-roboto, 20px, normal, #FFF);
+
+    @include breakpoint(small) {
+      font-size: 18px;
+      line-height: 22px;
+
+      margin-top: 12%;
+    }
+  }
+
+
+}
+

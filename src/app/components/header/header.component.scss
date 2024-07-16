@@ -20,11 +20,11 @@
 }
 
 .links {
+  @include font-style($font-roboto, 16px, normal, #FFF);
+  
   display: flex;
   gap: 20%;
 
-  font-family: $font-inter;
-  font-size: 18px;
 
   list-style-type: none;
 
